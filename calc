@@ -1,0 +1,27 @@
+import math
+# This code is a calculator
+# asking user for input
+one = input("First integer: ")
+two = input("Second integer: ")
+# post: one and two are strings
+
+# convert string input to integer
+one = int(one)
+two = int(two)
+# post: one and two are integers
+
+# do the math
+add = one + two
+diff = one - two
+mult = one * two
+div = one / two
+sqrt = math.sqrt(one)
+# post: math calculations completed
+
+# print the answers
+print("Sum: ", add)
+print("Diff: ", diff)
+print("Mult: ", mult)
+print("Div: ", div)
+print("SQRT: ", sqrt)
+# done
